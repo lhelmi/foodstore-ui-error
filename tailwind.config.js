@@ -2,6 +2,7 @@
 module.exports = {
   content: [],
   presets: [],
+  purge : ['src/**/*.js'],
   darkMode: 'media', // or 'class'
   theme: {
     accentColor: ({ theme }) => ({
